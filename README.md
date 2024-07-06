@@ -1,5 +1,10 @@
 # Interactive Article Markup
 
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Monaco Editor](https://img.shields.io/badge/Monaco%20Editor-7F3FBF?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
 This repository serves as a code sandbox for testing a prototype of interactive article editing. 
 It features an editable HTML markup with syntax highlighting on the left, and a rendered view of the article with the necessary CSS styles on the right, exactly as it would appear to an end-user. This sandbox is an experimental example in the development of a blogging CMS for EditorialPerfection.
 
