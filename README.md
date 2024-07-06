@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+# Interactive Article Markup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository serves as a code sandbox for testing a prototype of interactive article editing. 
+It features an editable HTML markup with syntax highlighting on the left, and a rendered view of the article with the necessary CSS styles on the right, exactly as it would appear to an end-user. This sandbox is an experimental example in the development of a blogging CMS for EditorialPerfection.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [License](#license)
 
-## Expanding the ESLint configuration
+## Introduction
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The **Interactive Article Markup** project aims to enhance the reader's experience by adding interactive elements to articles. This template can be used by content creators, journalists, and developers to make their articles more engaging and informative.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Interactive elements such as quizzes, charts, and infographics
+- Easy-to-use markup language for adding interactivity
+- Responsive design for mobile and desktop devices
+- Lightweight and fast performance
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/EditorialPerfection/interactive-article-markup.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd interactive-article-markup
+   ```
+
+3. Install the dependencies:
+   ```
+   npm install
+   ```
+
+## Usage
+
+After installing the dependencies, you can start the development server:
+
+```
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This will start a local development server at `http://localhost:3000`, where you can view and edit your interactive articles.
+
+To build the project for production, use:
+
+```
+npm run build
+```
+
+The output will be in the `dist` directory, ready to be deployed to your web server.
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
