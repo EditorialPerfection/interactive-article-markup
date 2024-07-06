@@ -5,6 +5,10 @@ It features an editable HTML markup with syntax highlighting on the left, and a 
 
 <img src="interactive-article-markup.gif">
 
+▶️ [Codesanbox DEMO](https://codesandbox.io/p/sandbox/crimson-http-hxvgzy?file=%2Fsrc%2FHtmlEditorPreview.tsx)
+
+---
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
