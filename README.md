@@ -3,6 +3,8 @@
 This repository serves as a code sandbox for testing a prototype of interactive article editing. 
 It features an editable HTML markup with syntax highlighting on the left, and a rendered view of the article with the necessary CSS styles on the right, exactly as it would appear to an end-user. This sandbox is an experimental example in the development of a blogging CMS for EditorialPerfection.
 
+<img src="interactive-article-markup.gif">
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
